@@ -28,3 +28,16 @@ Open `index.html` and replace:
 - the three sample researcher names
 - the sample interview descriptions
 - the timeline text as your historical research develops
+
+
+## Replace the profile photo
+
+1. Add your photo to the `images` folder.
+2. Name it `profile.jpg`.
+3. In `index.html`, change:
+
+   `images/profile-placeholder.svg`
+
+   to:
+
+   `images/profile.jpg`
