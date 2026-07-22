@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The FWI Story — an oral history of full-waveform inversion, told through the voices of its researchers and pioneers.">
+  <title>The FWI Story</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The FWI Story home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 32" role="img">
+          <path d="M2 16 C8 2, 14 30, 20 16 S32 2, 38 16 S50 30, 62 16"
+                fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span>The FWI Story</span>
+    </a>
+
+    <button class="menu-button" aria-expanded="false" aria-controls="main-navigation">
+      Menu
+    </button>
+
+    <nav id="main-navigation" class="main-navigation" aria-label="Main navigation">
+      <a href="#story">Story</a>
+      <a href="#voices">Voices</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">An oral history of full-waveform inversion</p>
+        <h1>The people, ideas, and turning points behind FWI.</h1>
+        <p class="hero-text">
+          The FWI Story collects first-hand accounts from researchers who helped
+          shape full-waveform inversion—from its early concepts to modern applications.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#voices">Explore the voices</a>
+          <a class="button secondary" href="#timeline">View the timeline</a>
+        </div>
+      </div>
+
+      <div class="wave-panel" aria-label="Decorative seismic waveform">
+        <svg viewBox="0 0 700 360" role="img">
+          <title>Stylized seismic waveforms</title>
+          <g class="grid">
+            <line x1="0" y1="60" x2="700" y2="60"/>
+            <line x1="0" y1="120" x2="700" y2="120"/>
+            <line x1="0" y1="180" x2="700" y2="180"/>
+            <line x1="0" y1="240" x2="700" y2="240"/>
+            <line x1="0" y1="300" x2="700" y2="300"/>
+          </g>
+          <path class="wave wave-one"
+                d="M0 180 C35 180,45 155,70 180 S110 225,135 180 S175 95,205 180 S255 280,290 180 S345 55,380 180 S435 250,470 180 S530 120,565 180 S625 205,700 180"/>
+          <path class="wave wave-two"
+                d="M0 215 C45 215,55 200,80 215 S130 245,160 215 S215 150,250 215 S315 285,350 215 S415 145,450 215 S515 255,555 215 S625 190,700 215"/>
+          <circle class="pulse" cx="380" cy="180" r="8"/>
+        </svg>
+        <p>History recorded through scientific voices.</p>
+      </div>
+    </section>
+
+    <section id="story" class="section intro-section">
+      <div>
+        <p class="eyebrow">Why this project?</p>
+        <h2>Scientific history is more than a list of papers.</h2>
+      </div>
+      <div class="section-copy">
+        <p>
+          Important choices, failed attempts, personal discussions, and unexpected
+          discoveries often remain outside the published record. This project preserves
+          those memories through interviews, archival material, and a clear historical timeline.
+        </p>
+      </div>
+    </section>
+
+    <section id="voices" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Featured interviews</p>
+          <h2>Voices of FWI</h2>
+        </div>
+        <p>Replace these sample cards with your first interviews.</p>
+      </div>
+
+      <div class="card-grid">
+        <article class="voice-card">
+          <div class="portrait placeholder" aria-hidden="true">01</div>
+          <div class="card-content">
+            <p class="card-label">Interview</p>
+            <h3>Researcher name</h3>
+            <p>Early ideas, first experiments, and the challenges behind a major development in FWI.</p>
+            <a href="#" aria-label="Read interview with Researcher name">Coming soon</a>
+          </div>
+        </article>
+
+        <article class="voice-card">
+          <div class="portrait placeholder" aria-hidden="true">02</div>
+          <div class="card-content">
+            <p class="card-label">Interview</p>
+            <h3>Researcher name</h3>
+            <p>How computational limits shaped the method and influenced practical decisions.</p>
+            <a href="#" aria-label="Read interview with Researcher name">Coming soon</a>
+          </div>
+        </article>
+
+        <article class="voice-card">
+          <div class="portrait placeholder" aria-hidden="true">03</div>
+          <div class="card-content">
+            <p class="card-label">Interview</p>
+            <h3>Researcher name</h3>
+            <p>The transition from synthetic tests to field data and real-world applications.</p>
+            <a href="#" aria-label="Read interview with Researcher name">Coming soon</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section timeline-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Historical overview</p>
+          <h2>A living timeline</h2>
+        </div>
+        <p>Add dates, publications, interviews, and archival material as the project grows.</p>
+      </div>
+
+      <ol class="timeline">
+        <li>
+          <span class="timeline-number">01</span>
+          <div>
+            <h3>Origins</h3>
+            <p>Foundational ideas that connected wave propagation, inversion, and seismic imaging.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-number">02</span>
+          <div>
+            <h3>Early experiments</h3>
+            <p>Initial numerical tests, new objective functions, and the first practical workflows.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-number">03</span>
+          <div>
+            <h3>Field applications</h3>
+            <p>The move from controlled examples toward complex marine and land datasets.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-number">04</span>
+          <div>
+            <h3>Modern FWI</h3>
+            <p>New physics, larger datasets, improved optimization, and broader applications.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div>
+        <p class="eyebrow">About the archive</p>
+        <h2>Built for researchers, students, and future historians.</h2>
+      </div>
+      <div class="section-copy">
+        <p>
+          The FWI Story is an independent academic project documenting the development
+          of full-waveform inversion through oral histories and primary sources.
+        </p>
+        <p>
+          Contact: <a href="mailto:your-email@example.com">your-email@example.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> The FWI Story</p>
+    <p>An Oral History of Full-Waveform Inversion</p>
+  </footer>
+</body>
+</html>
